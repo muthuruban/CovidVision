@@ -10,7 +10,7 @@ from tensorflow.python.ops.gen_array_ops import concat
 from keras.applications.inception_v3 import preprocess_input
 import requests
 
-model = load_model("../IBM/InceptionV3-covid.h5")
+model = load_model("./Model/InceptionV3-covid.h5")
 
 app = Flask(__name__)
 
